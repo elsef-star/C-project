@@ -433,9 +433,9 @@ void CinemaSystem::seedSampleData() {
     nextBookingId++;
 
     
-    movies[0].addToWaitingList("Leyla Hasanova");
-    movies[0].addToWaitingList("Kamran Guliyev");
-    movies[3].addToWaitingList("Ahmad Hasanli");
+    movies[1].addToWaitingList("Leyla Hasanova");
+    movies[1].addToWaitingList("Kamran Guliyev");
+    movies[1].addToWaitingList("Ahmad Hasanli");
 
     
     saveAll();
