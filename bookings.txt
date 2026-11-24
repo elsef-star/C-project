@@ -1,0 +1,5 @@
+1|1|Ali Mammadov|A1
+2|1|Nigar Karimova|B4
+3|2|Tural Aliyev|C5
+4|3|Nusret Behbudlu|G5
+5|4|Elsef|B3
