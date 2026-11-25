@@ -201,7 +201,7 @@ void CinemaSystem::handleBookTicket() {
         return;
     }
 
-    // Bilet seçməzdən əvvəl zalın oturacaq xəritəsini göstərir
+    // Shows the seating map of the room before selecting a ticket
     movie->displaySeatMap();
 
     string seatCode = trim(readLine("Enter seat code (e.g. B4): "));
