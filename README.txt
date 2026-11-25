@@ -30,7 +30,7 @@ FILES INCLUDED
                                     seat array (rows A-I, columns 1-9),
                                     seat code parsing, and the
                                     std::queue waiting list.
-- Booking.h / Booking.cpp         : Defines the Booking entity class,
+- Ticket.h / Ticket.cpp         : Defines the Booking entity class,
                                     representing individual ticket
                                     reservations (booking ID, movie ID,
                                     customer name, and seat code).
