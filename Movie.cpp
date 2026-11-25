@@ -100,7 +100,7 @@ bool Movie::isSoldOut() const {
 void Movie::displaySeatMap() const {
     cout << "\n      ";
     for (int c = 0; c < COLS; ++c) {
-        cout << "   " << (c + 1); // <-- burada 2 boşluq əvəzinə 3 boşluq olsun
+        cout << "   " << (c + 1);
     }
     cout << "\n      ";
     for (int c = 0; c < COLS; ++c) {

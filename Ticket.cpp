@@ -6,8 +6,10 @@ using namespace std;
 Booking::Booking()
     : bookingId(0), movieId(0), customerName(""), seatCode("") {}
 
-Booking::Booking(int bookingId, int movieId, const string& customerName, const string& seatCode)
-    : bookingId(bookingId), movieId(movieId), customerName(customerName), seatCode(seatCode) {}
+Booking::Booking(int bookingId, int movieId, 
+    const string& customerName, const string& seatCode)
+    : bookingId(bookingId), movieId(movieId),
+     customerName(customerName), seatCode(seatCode) {}
 
 int Booking::getBookingId() const { return bookingId; }
 int Booking::getMovieId() const { return movieId; }
